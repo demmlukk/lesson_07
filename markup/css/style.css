@@ -5,6 +5,7 @@
 
 .body {
     background-color: #C4C4C4;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -14,7 +15,7 @@
 .line {
     background-color: #E6E6E6;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .clearfix::after {
