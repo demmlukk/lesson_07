@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #C4C4C4;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.line {
+    background-color: #E6E6E6;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.item-01 {
+    float: left;
+}
+
+.item-02 {
+    float: right;
+}
+
+.item-03 {
+    float: left;
+}
+
+.first-group {
+    float: right;
+    height: 100px;
+}
+
+.first-group img:not(:last-child) {
+    margin-right: 15px;
+}
+
+.second-group {
+    float: left;
+    height: 200px;
+}
+
+.second-group img:last-child {
+    margin-left: 15px;
+}
+
+.third-group {
+    float: right;
+    height: 200px;
+}
+
+.third-group img:last-child {
+    margin-left: 15px;
+}
